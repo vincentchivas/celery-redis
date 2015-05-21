@@ -1,0 +1,1052 @@
+[2015-05-20 20:32:58,414: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 20:32:58,460: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 20:32:58,469: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 20:32:59,476: INFO/MainProcess] mingle: all alone
+[2015-05-20 20:32:59,493: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 20:38:12,499: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 20:38:12,630: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 20:38:12,666: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 20:38:13,676: INFO/MainProcess] mingle: all alone
+[2015-05-20 20:38:13,751: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 20:38:28,873: WARNING/MainProcess] Exception
+[2015-05-20 20:38:28,874: WARNING/MainProcess] KeyError
+[2015-05-20 20:38:28,875: WARNING/MainProcess] :
+[2015-05-20 20:38:28,876: WARNING/MainProcess] KeyError(140514443314944,)
+[2015-05-20 20:38:28,878: WARNING/MainProcess] in
+[2015-05-20 20:38:28,878: WARNING/MainProcess] <module 'threading' from '/usr/lib/python2.7/threading.pyc'>
+[2015-05-20 20:38:28,879: WARNING/MainProcess] ignored
+[2015-05-20 20:40:10,832: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 20:40:10,874: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 20:40:10,882: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 20:40:11,889: INFO/MainProcess] mingle: all alone
+[2015-05-20 20:40:11,969: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 20:40:59,890: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 20:41:00,009: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 20:41:00,034: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 20:41:01,047: INFO/MainProcess] mingle: all alone
+[2015-05-20 20:41:01,086: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 23:12:22,788: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 23:12:23,854: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 23:14:08,558: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 23:14:09,621: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 23:18:00,401: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 23:18:00,518: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 23:18:00,536: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 23:18:01,551: INFO/MainProcess] mingle: all alone
+[2015-05-20 23:18:01,675: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 23:20:21,971: INFO/MainProcess] Received task: celtask.tasks.add[bae9378b-f5fd-481e-b676-c98ac652aa11]
+[2015-05-20 23:20:26,983: INFO/MainProcess] Task celtask.tasks.add[bae9378b-f5fd-481e-b676-c98ac652aa11] succeeded in 5.00964538101s: 465
+[2015-05-20 23:21:46,479: INFO/MainProcess] Received task: celtask.tasks.mul[e41dac95-e61f-4671-bd6b-b73fe1a7d974]
+[2015-05-20 23:21:46,486: INFO/MainProcess] Task celtask.tasks.mul[e41dac95-e61f-4671-bd6b-b73fe1a7d974] succeeded in 0.0025386819616s: 2583
+[2015-05-20 23:28:07,349: INFO/MainProcess] Received task: celtask.tasks.mul[0cd700c7-0673-4f3c-a94a-65c74c44403b]
+[2015-05-20 23:28:07,354: INFO/MainProcess] Task celtask.tasks.mul[0cd700c7-0673-4f3c-a94a-65c74c44403b] succeeded in 0.00300540309399s: 3200
+[2015-05-20 23:29:18,038: INFO/MainProcess] Received task: celtask.tasks.mul[84952241-d11a-485f-b345-ad8109197334]
+[2015-05-20 23:29:18,048: INFO/MainProcess] Task celtask.tasks.mul[84952241-d11a-485f-b345-ad8109197334] succeeded in 0.00663629104383s: 3200
+[2015-05-20 23:30:18,356: INFO/MainProcess] Received task: celtask.tasks.add[56cce6e3-d1a5-494d-96d4-d3ac3dbbcab0]
+[2015-05-20 23:30:23,365: INFO/MainProcess] Task celtask.tasks.add[56cce6e3-d1a5-494d-96d4-d3ac3dbbcab0] succeeded in 5.00392717589s: 44
+[2015-05-20 23:31:12,113: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 23:31:12,148: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-20 23:31:12,225: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-20 23:31:13,237: INFO/MainProcess] mingle: all alone
+[2015-05-20 23:31:13,266: WARNING/MainProcess] celery@ubuntu ready.
+[2015-05-20 23:31:57,929: INFO/MainProcess] Received task: celtask.tasks.mul[cb68afb6-d6a3-4059-8d5b-2040ad18be47]
+[2015-05-20 23:32:07,998: INFO/MainProcess] Task celtask.tasks.mul[cb68afb6-d6a3-4059-8d5b-2040ad18be47] succeeded in 10.0663144269s: 39528
+[2015-05-20 23:32:38,319: INFO/MainProcess] Received task: celtask.tasks.mul[07e8ebdc-431e-43b9-841d-37856b0c00b7]
+[2015-05-20 23:32:42,364: INFO/MainProcess] Received task: celtask.tasks.mul[6a8139a9-1238-432f-8f01-21510a0bf325]
+[2015-05-20 23:32:45,708: INFO/MainProcess] Received task: celtask.tasks.mul[f74063cb-b3fb-411e-8aae-99c2d54e01f4]
+[2015-05-20 23:32:48,332: INFO/MainProcess] Task celtask.tasks.mul[07e8ebdc-431e-43b9-841d-37856b0c00b7] succeeded in 10.0080779111s: 395646
+[2015-05-20 23:32:49,324: INFO/MainProcess] Received task: celtask.tasks.mul[8aa0e6a4-dd0a-4465-9984-0ce5e85b11f6]
+[2015-05-20 23:32:58,344: INFO/MainProcess] Task celtask.tasks.mul[6a8139a9-1238-432f-8f01-21510a0bf325] succeeded in 10.0104795401s: 3956582
+[2015-05-20 23:33:08,355: INFO/MainProcess] Task celtask.tasks.mul[f74063cb-b3fb-411e-8aae-99c2d54e01f4] succeeded in 10.009657592s: 3956610182
+[2015-05-20 23:33:18,368: INFO/MainProcess] Task celtask.tasks.mul[8aa0e6a4-dd0a-4465-9984-0ce5e85b11f6] succeeded in 10.0100485771s: 39598533051
+[2015-05-20 23:33:40,011: INFO/MainProcess] Received task: celtask.tasks.mul[25bf9c1d-8731-4cbc-9d2e-774c8588689d]
+[2015-05-20 23:33:48,173: INFO/MainProcess] Received task: celtask.tasks.mul[a7be3491-39e7-426f-b6cf-57cc4c0ced7c]
+[2015-05-20 23:33:50,026: INFO/MainProcess] Task celtask.tasks.mul[25bf9c1d-8731-4cbc-9d2e-774c8588689d] succeeded in 10.0094500219s: 150183
+[2015-05-20 23:33:56,987: INFO/MainProcess] Received task: celtask.tasks.mul[127456f3-25ec-4908-8065-a44885a1135b]
+[2015-05-20 23:34:00,038: INFO/MainProcess] Task celtask.tasks.mul[a7be3491-39e7-426f-b6cf-57cc4c0ced7c] succeeded in 10.009506322s: 1504272
+[2015-05-20 23:34:06,762: INFO/MainProcess] Received task: celtask.tasks.mul[230bc8a7-986d-445c-ab14-94d0dc5aa353]
+[2015-05-20 23:34:10,050: INFO/MainProcess] Task celtask.tasks.mul[127456f3-25ec-4908-8065-a44885a1135b] succeeded in 10.0108481501s: 150333183
+[2015-05-20 23:34:16,265: INFO/MainProcess] Received task: celtask.tasks.mul[033b8988-e243-42a6-a65d-4c9461c0c3c8]
+[2015-05-20 23:34:20,058: INFO/MainProcess] Task celtask.tasks.mul[230bc8a7-986d-445c-ab14-94d0dc5aa353] succeeded in 10.005910489s: 1503333051
+[2015-05-20 23:34:26,490: INFO/MainProcess] Received task: celtask.tasks.mul[355e2678-e904-493b-9626-edab224927f7]
+[2015-05-20 23:34:30,070: INFO/MainProcess] Task celtask.tasks.mul[033b8988-e243-42a6-a65d-4c9461c0c3c8] succeeded in 10.0104287041s: 1503333201183
+[2015-05-20 23:34:40,081: INFO/MainProcess] Task celtask.tasks.mul[355e2678-e904-493b-9626-edab224927f7] succeeded in 10.0095155688s: 556776
+[2015-05-21 00:05:37,451: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:05:37,546: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:05:37,566: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:05:38,039: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:05:38,099: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:05:38,115: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:05:38,242: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:05:38,269: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:05:38,277: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:05:38,630: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:05:38,658: WARNING/MainProcess] celery1@ubuntu ready.
+[2015-05-21 00:05:39,131: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:05:39,157: WARNING/MainProcess] celery2@ubuntu ready.
+[2015-05-21 00:05:39,284: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:05:39,361: WARNING/MainProcess] celery3@ubuntu ready.
+[2015-05-21 00:17:05,763: INFO/MainProcess] Received task: celtask.tasks.add[dc9846f4-6a56-4e7f-9403-2fd1960dd693]
+[2015-05-21 00:17:10,774: INFO/MainProcess] Task celtask.tasks.add[dc9846f4-6a56-4e7f-9403-2fd1960dd693] succeeded in 5.00495572691s: 5
+[2015-05-21 00:17:25,957: INFO/MainProcess] Received task: celtask.tasks.mul[24a7bd68-0393-496e-bb4c-125863140b2f]
+[2015-05-21 00:17:35,975: INFO/MainProcess] Task celtask.tasks.mul[24a7bd68-0393-496e-bb4c-125863140b2f] succeeded in 10.0141723759s: 6
+[2015-05-21 00:18:16,780: INFO/MainProcess] Received task: celtask.tasks.mul[6542b5d0-0d51-472f-bdcc-565c316bb995]
+[2015-05-21 00:18:20,027: INFO/MainProcess] Received task: celtask.tasks.add[281ae962-9c19-43c7-8a46-895f10dc5aa9]
+[2015-05-21 00:18:25,037: INFO/MainProcess] Task celtask.tasks.add[281ae962-9c19-43c7-8a46-895f10dc5aa9] succeeded in 5.00719043892s: 5
+[2015-05-21 00:18:26,788: INFO/MainProcess] Task celtask.tasks.mul[6542b5d0-0d51-472f-bdcc-565c316bb995] succeeded in 10.005303106s: 9
+[2015-05-21 00:25:03,940: INFO/MainProcess] Received task: celtask.tasks.add[99f26ba3-31bd-47b2-90fa-0bfa75ffd7cd]
+[2015-05-21 00:25:05,912: INFO/MainProcess] Received task: celtask.tasks.add[22858679-45c2-4071-91ab-3a351494545a]
+[2015-05-21 00:25:07,175: INFO/MainProcess] Received task: celtask.tasks.add[94468a7f-ceb0-47c3-b9b4-9788750ccb59]
+[2015-05-21 00:25:08,045: INFO/MainProcess] Received task: celtask.tasks.add[c583edd1-e17e-4254-b7e6-4b3ec2814ddb]
+[2015-05-21 00:25:08,613: INFO/MainProcess] Received task: celtask.tasks.add[ba1a3f5c-f9b5-4a2d-bfbb-28747688da35]
+[2015-05-21 00:25:08,954: INFO/MainProcess] Task celtask.tasks.add[99f26ba3-31bd-47b2-90fa-0bfa75ffd7cd] succeeded in 5.00752637093s: 124354
+[2015-05-21 00:25:10,019: INFO/MainProcess] Received task: celtask.tasks.add[889a1b50-bde1-49f1-a382-93c5e55eda29]
+[2015-05-21 00:25:13,960: INFO/MainProcess] Task celtask.tasks.add[22858679-45c2-4071-91ab-3a351494545a] succeeded in 5.003567304s: 124354
+[2015-05-21 00:25:13,964: INFO/MainProcess] Received task: celtask.tasks.add[85130827-0e72-4ecc-a9c6-098c34ab3d26]
+[2015-05-21 00:25:18,968: INFO/MainProcess] Task celtask.tasks.add[94468a7f-ceb0-47c3-b9b4-9788750ccb59] succeeded in 5.00704733795s: 124354
+[2015-05-21 00:25:18,974: INFO/MainProcess] Received task: celtask.tasks.add[bf0b0cf9-fe6b-42ea-a3b4-9b4550ec2d61]
+[2015-05-21 00:25:23,977: INFO/MainProcess] Task celtask.tasks.add[c583edd1-e17e-4254-b7e6-4b3ec2814ddb] succeeded in 5.00637210207s: 124354
+[2015-05-21 00:25:29,047: INFO/MainProcess] Task celtask.tasks.add[ba1a3f5c-f9b5-4a2d-bfbb-28747688da35] succeeded in 5.00236325292s: 124354
+[2015-05-21 00:25:34,131: INFO/MainProcess] Task celtask.tasks.add[889a1b50-bde1-49f1-a382-93c5e55eda29] succeeded in 5.00824170397s: 124354
+[2015-05-21 00:25:39,141: INFO/MainProcess] Task celtask.tasks.add[85130827-0e72-4ecc-a9c6-098c34ab3d26] succeeded in 5.00661271089s: 124354
+[2015-05-21 00:25:44,151: INFO/MainProcess] Task celtask.tasks.add[bf0b0cf9-fe6b-42ea-a3b4-9b4550ec2d61] succeeded in 5.00655952399s: 124354
+[2015-05-21 00:38:32,692: INFO/MainProcess] Received task: celtask.tasks.xsum[3088b69c-1682-4845-8c42-b48437a7a9ed]
+[2015-05-21 00:38:32,794: ERROR/MainProcess] Task celtask.tasks.xsum[3088b69c-1682-4845-8c42-b48437a7a9ed] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:39:02,740: INFO/MainProcess] Received task: celtask.tasks.xsum[bf428bae-31b1-4d49-9235-8e619d2471f1]
+[2015-05-21 00:39:02,745: ERROR/MainProcess] Task celtask.tasks.xsum[bf428bae-31b1-4d49-9235-8e619d2471f1] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:39:32,755: INFO/MainProcess] Received task: celtask.tasks.xsum[4896ba99-3f9e-440c-b77b-b6fa7da59154]
+[2015-05-21 00:39:32,767: ERROR/MainProcess] Task celtask.tasks.xsum[4896ba99-3f9e-440c-b77b-b6fa7da59154] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:40:02,769: INFO/MainProcess] Received task: celtask.tasks.xsum[95918884-9491-40d3-9a10-14ef0cf8f52d]
+[2015-05-21 00:40:02,787: ERROR/MainProcess] Task celtask.tasks.xsum[95918884-9491-40d3-9a10-14ef0cf8f52d] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:41:10,178: INFO/MainProcess] Received task: celtask.tasks.xsum[f9a4e24d-cc44-43e7-ad3f-50083b7b0aca]
+[2015-05-21 00:41:10,184: ERROR/MainProcess] Task celtask.tasks.xsum[f9a4e24d-cc44-43e7-ad3f-50083b7b0aca] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:41:40,192: INFO/MainProcess] Received task: celtask.tasks.xsum[e2f0421f-7b3d-4d6b-8baa-0232d261263b]
+[2015-05-21 00:41:40,199: ERROR/MainProcess] Task celtask.tasks.xsum[e2f0421f-7b3d-4d6b-8baa-0232d261263b] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:42:10,222: INFO/MainProcess] Received task: celtask.tasks.xsum[da372d1c-e0e2-4234-a6ed-1a24ff7a2e67]
+[2015-05-21 00:42:10,236: ERROR/MainProcess] Task celtask.tasks.xsum[da372d1c-e0e2-4234-a6ed-1a24ff7a2e67] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:42:40,249: INFO/MainProcess] Received task: celtask.tasks.xsum[efc5f5cb-f80a-407d-a8fa-1919bc0d46a3]
+[2015-05-21 00:42:40,259: ERROR/MainProcess] Task celtask.tasks.xsum[efc5f5cb-f80a-407d-a8fa-1919bc0d46a3] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:43:10,275: INFO/MainProcess] Received task: celtask.tasks.xsum[ddaf3626-d7d5-4a41-9fa1-2bc98c50478c]
+[2015-05-21 00:43:10,290: ERROR/MainProcess] Task celtask.tasks.xsum[ddaf3626-d7d5-4a41-9fa1-2bc98c50478c] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:43:40,310: INFO/MainProcess] Received task: celtask.tasks.xsum[ef4b1228-9dd5-41ab-b471-2ea36a512c34]
+[2015-05-21 00:43:40,321: ERROR/MainProcess] Task celtask.tasks.xsum[ef4b1228-9dd5-41ab-b471-2ea36a512c34] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:44:10,320: INFO/MainProcess] Received task: celtask.tasks.xsum[7605a19a-2fea-4f66-bdd3-fefc0c382bef]
+[2015-05-21 00:44:10,326: ERROR/MainProcess] Task celtask.tasks.xsum[7605a19a-2fea-4f66-bdd3-fefc0c382bef] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:44:40,344: INFO/MainProcess] Received task: celtask.tasks.xsum[5db0698a-ca6d-4d69-91a9-7c6b270f5dbf]
+[2015-05-21 00:44:40,349: ERROR/MainProcess] Task celtask.tasks.xsum[5db0698a-ca6d-4d69-91a9-7c6b270f5dbf] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:45:10,366: INFO/MainProcess] Received task: celtask.tasks.xsum[ed2ca8a1-2a8e-4ef6-92b1-174f07fb4448]
+[2015-05-21 00:45:10,374: ERROR/MainProcess] Task celtask.tasks.xsum[ed2ca8a1-2a8e-4ef6-92b1-174f07fb4448] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:45:27,290: INFO/MainProcess] Received task: celtask.tasks.xsum[1aad93fa-5e64-4479-a889-14c3c82109bb]
+[2015-05-21 00:45:27,295: ERROR/MainProcess] Task celtask.tasks.xsum[1aad93fa-5e64-4479-a889-14c3c82109bb] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:45:57,324: INFO/MainProcess] Received task: celtask.tasks.xsum[a7d17a0d-7158-463e-9cca-69d37a416b42]
+[2015-05-21 00:45:57,335: ERROR/MainProcess] Task celtask.tasks.xsum[a7d17a0d-7158-463e-9cca-69d37a416b42] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:46:27,349: INFO/MainProcess] Received task: celtask.tasks.xsum[9f56793b-476b-46d3-afb1-cd496c9faa0c]
+[2015-05-21 00:46:27,359: ERROR/MainProcess] Task celtask.tasks.xsum[9f56793b-476b-46d3-afb1-cd496c9faa0c] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:46:57,368: INFO/MainProcess] Received task: celtask.tasks.xsum[1952a1e2-d993-46f9-98da-9bc8d6fa3afe]
+[2015-05-21 00:46:57,379: ERROR/MainProcess] Task celtask.tasks.xsum[1952a1e2-d993-46f9-98da-9bc8d6fa3afe] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:47:27,395: INFO/MainProcess] Received task: celtask.tasks.xsum[e2b0bf79-e88f-486a-9c06-8cd89945cf5f]
+[2015-05-21 00:47:27,399: ERROR/MainProcess] Task celtask.tasks.xsum[e2b0bf79-e88f-486a-9c06-8cd89945cf5f] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:47:57,418: INFO/MainProcess] Received task: celtask.tasks.xsum[79783899-1921-4f9d-9a9a-8dcc65670458]
+[2015-05-21 00:47:57,426: ERROR/MainProcess] Task celtask.tasks.xsum[79783899-1921-4f9d-9a9a-8dcc65670458] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:48:27,444: INFO/MainProcess] Received task: celtask.tasks.xsum[eb8d617f-e338-458e-8014-f2acf587ad05]
+[2015-05-21 00:48:27,461: ERROR/MainProcess] Task celtask.tasks.xsum[eb8d617f-e338-458e-8014-f2acf587ad05] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:48:57,489: INFO/MainProcess] Received task: celtask.tasks.xsum[1f63ea1b-09fa-47c1-882d-8e01fbd3214f]
+[2015-05-21 00:48:57,505: ERROR/MainProcess] Task celtask.tasks.xsum[1f63ea1b-09fa-47c1-882d-8e01fbd3214f] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:49:27,524: INFO/MainProcess] Received task: celtask.tasks.xsum[0c2acea9-f033-4a64-ae9f-925056d3d974]
+[2015-05-21 00:49:27,538: ERROR/MainProcess] Task celtask.tasks.xsum[0c2acea9-f033-4a64-ae9f-925056d3d974] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:49:57,555: INFO/MainProcess] Received task: celtask.tasks.xsum[0a9398ad-305f-4c72-a805-54fcdacaa9d1]
+[2015-05-21 00:49:57,571: ERROR/MainProcess] Task celtask.tasks.xsum[0a9398ad-305f-4c72-a805-54fcdacaa9d1] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:50:27,583: INFO/MainProcess] Received task: celtask.tasks.xsum[d7869f97-a13b-406a-bdb9-f97c880da1a8]
+[2015-05-21 00:50:27,594: ERROR/MainProcess] Task celtask.tasks.xsum[d7869f97-a13b-406a-bdb9-f97c880da1a8] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:50:57,604: INFO/MainProcess] Received task: celtask.tasks.xsum[36773198-5e66-4870-b78b-f972d9d3af98]
+[2015-05-21 00:50:57,609: ERROR/MainProcess] Task celtask.tasks.xsum[36773198-5e66-4870-b78b-f972d9d3af98] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:51:27,631: INFO/MainProcess] Received task: celtask.tasks.xsum[4c67ad64-b77b-4ee9-82c1-c9431178199e]
+[2015-05-21 00:51:27,636: ERROR/MainProcess] Task celtask.tasks.xsum[4c67ad64-b77b-4ee9-82c1-c9431178199e] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:51:57,657: INFO/MainProcess] Received task: celtask.tasks.xsum[de2db025-fc1e-4980-bce0-3db6e7430e1c]
+[2015-05-21 00:51:57,664: ERROR/MainProcess] Task celtask.tasks.xsum[de2db025-fc1e-4980-bce0-3db6e7430e1c] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:52:27,662: INFO/MainProcess] Received task: celtask.tasks.xsum[d81ff71d-06c7-4076-bc46-e835ec9672cf]
+[2015-05-21 00:52:27,668: ERROR/MainProcess] Task celtask.tasks.xsum[d81ff71d-06c7-4076-bc46-e835ec9672cf] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:52:57,677: INFO/MainProcess] Received task: celtask.tasks.xsum[65b44bd7-77ac-4d44-a985-8694b8b16b51]
+[2015-05-21 00:52:57,687: ERROR/MainProcess] Task celtask.tasks.xsum[65b44bd7-77ac-4d44-a985-8694b8b16b51] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:53:12,975: INFO/MainProcess] Received task: celtask.tasks.xsum[7c9325b8-8c12-4a73-b657-5a006d11da9c]
+[2015-05-21 00:53:12,980: ERROR/MainProcess] Task celtask.tasks.xsum[7c9325b8-8c12-4a73-b657-5a006d11da9c] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:53:43,002: INFO/MainProcess] Received task: celtask.tasks.xsum[c4e2bbc0-8a52-46f7-a3a1-ee8d18a16644]
+[2015-05-21 00:53:43,017: ERROR/MainProcess] Task celtask.tasks.xsum[c4e2bbc0-8a52-46f7-a3a1-ee8d18a16644] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:54:13,026: INFO/MainProcess] Received task: celtask.tasks.xsum[7296fa54-5488-4779-a2b7-6ec985d7c73b]
+[2015-05-21 00:54:13,038: ERROR/MainProcess] Task celtask.tasks.xsum[7296fa54-5488-4779-a2b7-6ec985d7c73b] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:54:43,060: INFO/MainProcess] Received task: celtask.tasks.xsum[46234638-c53c-4fa4-8487-d203a3d2885a]
+[2015-05-21 00:54:43,070: ERROR/MainProcess] Task celtask.tasks.xsum[46234638-c53c-4fa4-8487-d203a3d2885a] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:55:13,086: INFO/MainProcess] Received task: celtask.tasks.xsum[3ae56417-a310-46c4-9113-d6544fe4804d]
+[2015-05-21 00:55:13,091: ERROR/MainProcess] Task celtask.tasks.xsum[3ae56417-a310-46c4-9113-d6544fe4804d] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:55:43,110: INFO/MainProcess] Received task: celtask.tasks.xsum[d21b35a8-e565-4076-9945-d1788cfa19ab]
+[2015-05-21 00:55:43,119: ERROR/MainProcess] Task celtask.tasks.xsum[d21b35a8-e565-4076-9945-d1788cfa19ab] raised unexpected: TypeError('xsum() takes exactly 1 argument (0 given)',)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+TypeError: xsum() takes exactly 1 argument (0 given)
+[2015-05-21 00:56:23,880: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:56:23,981: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:56:24,010: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:56:24,475: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:56:24,532: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:56:24,591: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:56:24,739: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-21 00:56:24,777: INFO/MainProcess] Connected to redis://localhost:6379/9
+[2015-05-21 00:56:24,791: INFO/MainProcess] mingle: searching for neighbors
+[2015-05-21 00:56:25,031: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:56:25,054: WARNING/MainProcess] celery1@ubuntu ready.
+[2015-05-21 00:56:25,603: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:56:25,628: WARNING/MainProcess] celery2@ubuntu ready.
+[2015-05-21 00:56:25,804: INFO/MainProcess] mingle: all alone
+[2015-05-21 00:56:25,834: WARNING/MainProcess] celery3@ubuntu ready.
+[2015-05-21 00:56:35,668: INFO/MainProcess] Received task: celtask.tasks.xsum[6636de9d-40b2-4ac9-81fb-daa08b435dca]
+[2015-05-21 00:56:40,699: INFO/MainProcess] Task celtask.tasks.xsum[6636de9d-40b2-4ac9-81fb-daa08b435dca] succeeded in 5.03020804585s: 6
+[2015-05-21 00:57:05,715: INFO/MainProcess] Received task: celtask.tasks.xsum[b13b2f48-dbc0-4130-8ec2-1b14930b7c0c]
+[2015-05-21 00:57:10,794: INFO/MainProcess] Task celtask.tasks.xsum[b13b2f48-dbc0-4130-8ec2-1b14930b7c0c] succeeded in 5.07139475993s: 6
+[2015-05-21 00:57:35,742: INFO/MainProcess] Received task: celtask.tasks.xsum[102638ff-21d4-46e4-b9d6-2db8a3ecc3fd]
+[2015-05-21 00:57:40,756: INFO/MainProcess] Task celtask.tasks.xsum[102638ff-21d4-46e4-b9d6-2db8a3ecc3fd] succeeded in 5.01170652313s: 6
+[2015-05-21 00:58:05,754: INFO/MainProcess] Received task: celtask.tasks.xsum[c5f79c76-de07-4a55-8383-6283cdd08741]
+[2015-05-21 00:58:10,767: INFO/MainProcess] Task celtask.tasks.xsum[c5f79c76-de07-4a55-8383-6283cdd08741] succeeded in 5.01065035886s: 6
+[2015-05-21 00:58:35,781: INFO/MainProcess] Received task: celtask.tasks.xsum[9fb614ff-5e5e-412e-aca2-98c44fecd7ee]
+[2015-05-21 00:58:40,787: INFO/MainProcess] Task celtask.tasks.xsum[9fb614ff-5e5e-412e-aca2-98c44fecd7ee] succeeded in 5.004261642s: 6
+[2015-05-21 00:59:05,794: INFO/MainProcess] Received task: celtask.tasks.xsum[d513c2cd-9414-4ab1-af21-3f361a97e5d8]
+[2015-05-21 00:59:10,805: INFO/MainProcess] Task celtask.tasks.xsum[d513c2cd-9414-4ab1-af21-3f361a97e5d8] succeeded in 5.00787603599s: 6
+[2015-05-21 00:59:35,817: INFO/MainProcess] Received task: celtask.tasks.xsum[b8ff8725-78f3-4a9e-93f6-f7e796363671]
+[2015-05-21 00:59:40,834: INFO/MainProcess] Task celtask.tasks.xsum[b8ff8725-78f3-4a9e-93f6-f7e796363671] succeeded in 5.01241547382s: 6
+[2015-05-21 01:00:05,848: INFO/MainProcess] Received task: celtask.tasks.xsum[73c19a09-1268-4557-ba28-953608cfdd1f]
+[2015-05-21 01:00:10,878: INFO/MainProcess] Task celtask.tasks.xsum[73c19a09-1268-4557-ba28-953608cfdd1f] succeeded in 5.02783340099s: 6
+[2015-05-21 01:00:35,891: INFO/MainProcess] Received task: celtask.tasks.xsum[c8115e3f-ec4c-432b-abf4-15030ab2d3c5]
+[2015-05-21 01:00:40,901: INFO/MainProcess] Task celtask.tasks.xsum[c8115e3f-ec4c-432b-abf4-15030ab2d3c5] succeeded in 5.00708151306s: 6
+[2015-05-21 01:01:05,907: INFO/MainProcess] Received task: celtask.tasks.xsum[ab7c3177-f214-4b8c-a65c-5ea1e18c1550]
+[2015-05-21 01:01:10,915: INFO/MainProcess] Task celtask.tasks.xsum[ab7c3177-f214-4b8c-a65c-5ea1e18c1550] succeeded in 5.00596731994s: 6
+[2015-05-21 01:01:35,933: INFO/MainProcess] Received task: celtask.tasks.xsum[b883001f-91a6-421f-88d9-70c285e4bb0a]
+[2015-05-21 01:01:40,941: INFO/MainProcess] Task celtask.tasks.xsum[b883001f-91a6-421f-88d9-70c285e4bb0a] succeeded in 5.00521023106s: 6
+[2015-05-21 01:02:05,962: INFO/MainProcess] Received task: celtask.tasks.xsum[031b3102-4b59-4339-9541-81336818e7da]
+[2015-05-21 01:02:10,972: INFO/MainProcess] Task celtask.tasks.xsum[031b3102-4b59-4339-9541-81336818e7da] succeeded in 5.00778406695s: 6
+[2015-05-21 01:02:35,987: INFO/MainProcess] Received task: celtask.tasks.xsum[8c00d665-48ce-4206-8005-26c48c03dd0f]
+[2015-05-21 01:02:40,999: INFO/MainProcess] Task celtask.tasks.xsum[8c00d665-48ce-4206-8005-26c48c03dd0f] succeeded in 5.00970598613s: 6
+[2015-05-21 01:03:06,028: INFO/MainProcess] Received task: celtask.tasks.xsum[8b861bee-ccd9-45c0-b526-87d061eea487]
+[2015-05-21 01:03:11,117: INFO/MainProcess] Task celtask.tasks.xsum[8b861bee-ccd9-45c0-b526-87d061eea487] succeeded in 5.08659511502s: 6
+[2015-05-21 01:03:36,053: INFO/MainProcess] Received task: celtask.tasks.xsum[073cdb15-37b5-40a0-afd0-f76a1da2a5ba]
+[2015-05-21 01:03:41,066: INFO/MainProcess] Task celtask.tasks.xsum[073cdb15-37b5-40a0-afd0-f76a1da2a5ba] succeeded in 5.01035440108s: 6
+[2015-05-21 01:04:06,084: INFO/MainProcess] Received task: celtask.tasks.xsum[fe7b34c4-fe95-4c3b-9a9b-c4b61453a599]
+[2015-05-21 01:04:11,100: INFO/MainProcess] Task celtask.tasks.xsum[fe7b34c4-fe95-4c3b-9a9b-c4b61453a599] succeeded in 5.012296075s: 6
+[2015-05-21 01:04:36,092: INFO/MainProcess] Received task: celtask.tasks.xsum[c9af6362-493e-4ce7-8b4a-c38f3bc9f6c3]
+[2015-05-21 01:04:41,113: INFO/MainProcess] Task celtask.tasks.xsum[c9af6362-493e-4ce7-8b4a-c38f3bc9f6c3] succeeded in 5.01801453182s: 6
+[2015-05-21 01:05:06,124: INFO/MainProcess] Received task: celtask.tasks.xsum[95b47686-d623-46de-a7f6-d96b4bfe4491]
+[2015-05-21 01:05:11,137: INFO/MainProcess] Task celtask.tasks.xsum[95b47686-d623-46de-a7f6-d96b4bfe4491] succeeded in 5.01011707098s: 6
+[2015-05-21 01:05:36,157: INFO/MainProcess] Received task: celtask.tasks.xsum[8a733fad-39a3-489e-9a7a-008046834ccd]
+[2015-05-21 01:05:41,176: INFO/MainProcess] Task celtask.tasks.xsum[8a733fad-39a3-489e-9a7a-008046834ccd] succeeded in 5.0156565581s: 6
+[2015-05-21 01:06:06,200: INFO/MainProcess] Received task: celtask.tasks.xsum[5c0f369f-43c1-4070-bee7-15ae9d78b8eb]
+[2015-05-21 01:06:11,267: INFO/MainProcess] Task celtask.tasks.xsum[5c0f369f-43c1-4070-bee7-15ae9d78b8eb] succeeded in 5.06533929287s: 6
+[2015-05-21 01:06:36,269: INFO/MainProcess] Received task: celtask.tasks.xsum[72a2f23b-7591-4110-b555-2cd71918f7a4]
+[2015-05-21 01:06:41,279: INFO/MainProcess] Task celtask.tasks.xsum[72a2f23b-7591-4110-b555-2cd71918f7a4] succeeded in 5.00867094309s: 6
+[2015-05-21 01:07:06,285: INFO/MainProcess] Received task: celtask.tasks.xsum[c175349c-b99e-4228-8064-539d9b2f581e]
+[2015-05-21 01:07:11,298: INFO/MainProcess] Task celtask.tasks.xsum[c175349c-b99e-4228-8064-539d9b2f581e] succeeded in 5.01024399512s: 6
+[2015-05-21 01:07:36,301: INFO/MainProcess] Received task: celtask.tasks.xsum[04c493ff-03e0-4a1a-b566-1467968808a7]
+[2015-05-21 01:07:41,310: INFO/MainProcess] Task celtask.tasks.xsum[04c493ff-03e0-4a1a-b566-1467968808a7] succeeded in 5.00695660105s: 6
+[2015-05-21 01:08:06,319: INFO/MainProcess] Received task: celtask.tasks.xsum[a0a6b0f3-9ac5-4af0-a4fe-07d40e4b3bc5]
+[2015-05-21 01:08:11,332: INFO/MainProcess] Task celtask.tasks.xsum[a0a6b0f3-9ac5-4af0-a4fe-07d40e4b3bc5] succeeded in 5.01193701895s: 6
+[2015-05-21 01:08:36,341: INFO/MainProcess] Received task: celtask.tasks.xsum[4753dfc6-4158-4157-a808-fbc41f0af0ba]
+[2015-05-21 01:08:41,368: INFO/MainProcess] Task celtask.tasks.xsum[4753dfc6-4158-4157-a808-fbc41f0af0ba] succeeded in 5.02298927004s: 6
+[2015-05-21 01:09:06,412: INFO/MainProcess] Received task: celtask.tasks.xsum[24e94d76-af38-4836-b544-bc320a994f44]
+[2015-05-21 01:09:11,435: INFO/MainProcess] Task celtask.tasks.xsum[24e94d76-af38-4836-b544-bc320a994f44] succeeded in 5.01797695202s: 6
+[2015-05-21 01:09:36,444: INFO/MainProcess] Received task: celtask.tasks.xsum[272f8052-6f71-4ef7-8d13-705d1ef9a00f]
+[2015-05-21 01:09:41,472: INFO/MainProcess] Task celtask.tasks.xsum[272f8052-6f71-4ef7-8d13-705d1ef9a00f] succeeded in 5.02072997508s: 6
+[2015-05-21 01:10:06,455: INFO/MainProcess] Received task: celtask.tasks.xsum[c79d40f5-a7e5-45bd-8742-7e6e715d84bb]
+[2015-05-21 01:10:11,472: INFO/MainProcess] Task celtask.tasks.xsum[c79d40f5-a7e5-45bd-8742-7e6e715d84bb] succeeded in 5.013847942s: 6
+[2015-05-21 01:10:36,478: INFO/MainProcess] Received task: celtask.tasks.xsum[ba1d7861-ccbd-4b81-899d-50dd5f779244]
+[2015-05-21 01:10:41,495: INFO/MainProcess] Task celtask.tasks.xsum[ba1d7861-ccbd-4b81-899d-50dd5f779244] succeeded in 5.01474412601s: 6
+[2015-05-21 01:11:06,515: INFO/MainProcess] Received task: celtask.tasks.xsum[25c30d1c-8c1f-4df5-8b8e-24ee46233c9c]
+[2015-05-21 01:11:11,526: INFO/MainProcess] Task celtask.tasks.xsum[25c30d1c-8c1f-4df5-8b8e-24ee46233c9c] succeeded in 5.01038709795s: 6
+[2015-05-21 01:11:36,539: INFO/MainProcess] Received task: celtask.tasks.xsum[83df3b36-8aca-4ace-85e3-21d44e6507ab]
+[2015-05-21 01:11:41,573: INFO/MainProcess] Task celtask.tasks.xsum[83df3b36-8aca-4ace-85e3-21d44e6507ab] succeeded in 5.03101868089s: 6
+[2015-05-21 01:12:06,586: INFO/MainProcess] Received task: celtask.tasks.xsum[f5056642-ebd7-4f0e-a27d-e177a9dd0e76]
+[2015-05-21 01:12:11,605: INFO/MainProcess] Task celtask.tasks.xsum[f5056642-ebd7-4f0e-a27d-e177a9dd0e76] succeeded in 5.01614903589s: 6
+[2015-05-21 01:12:36,615: INFO/MainProcess] Received task: celtask.tasks.xsum[9362d06c-7e07-45c3-9c25-89ec44e8e6ac]
+[2015-05-21 01:12:41,628: INFO/MainProcess] Task celtask.tasks.xsum[9362d06c-7e07-45c3-9c25-89ec44e8e6ac] succeeded in 5.0102186671s: 6
+[2015-05-21 01:13:06,635: INFO/MainProcess] Received task: celtask.tasks.xsum[cacb5bfb-5f32-4720-a16e-32d7205a161f]
+[2015-05-21 01:13:11,669: INFO/MainProcess] Task celtask.tasks.xsum[cacb5bfb-5f32-4720-a16e-32d7205a161f] succeeded in 5.014974355s: 6
+[2015-05-21 01:13:36,676: INFO/MainProcess] Received task: celtask.tasks.xsum[a180f8af-15ab-4eec-b913-1061a745eb81]
+[2015-05-21 01:13:41,697: INFO/MainProcess] Task celtask.tasks.xsum[a180f8af-15ab-4eec-b913-1061a745eb81] succeeded in 5.01807661192s: 6
+[2015-05-21 01:14:06,703: INFO/MainProcess] Received task: celtask.tasks.xsum[4056c5fd-5cb0-4211-a9c8-0a36bc64ff58]
+[2015-05-21 01:14:11,732: INFO/MainProcess] Task celtask.tasks.xsum[4056c5fd-5cb0-4211-a9c8-0a36bc64ff58] succeeded in 5.02573222388s: 6
+[2015-05-21 01:14:36,732: INFO/MainProcess] Received task: celtask.tasks.xsum[2b7d1ca2-2368-4b66-b18e-dd448dd8d843]
+[2015-05-21 01:14:41,756: INFO/MainProcess] Task celtask.tasks.xsum[2b7d1ca2-2368-4b66-b18e-dd448dd8d843] succeeded in 5.02061795909s: 6
+[2015-05-21 01:15:06,764: INFO/MainProcess] Received task: celtask.tasks.xsum[539aa898-a731-4e92-b00f-bc258036053b]
+[2015-05-21 01:15:11,780: INFO/MainProcess] Task celtask.tasks.xsum[539aa898-a731-4e92-b00f-bc258036053b] succeeded in 5.01546413009s: 6
+[2015-05-21 01:15:36,780: INFO/MainProcess] Received task: celtask.tasks.xsum[87499bbf-31fa-4aa4-a9cd-4198711f00ff]
+[2015-05-21 01:15:41,795: INFO/MainProcess] Task celtask.tasks.xsum[87499bbf-31fa-4aa4-a9cd-4198711f00ff] succeeded in 5.01215443085s: 6
+[2015-05-21 01:16:06,808: INFO/MainProcess] Received task: celtask.tasks.xsum[4d6aee1c-c53a-42ab-8e56-11b2a9fac0d6]
+[2015-05-21 01:16:11,830: INFO/MainProcess] Task celtask.tasks.xsum[4d6aee1c-c53a-42ab-8e56-11b2a9fac0d6] succeeded in 5.01841876912s: 6
+[2015-05-21 01:16:36,843: INFO/MainProcess] Received task: celtask.tasks.xsum[dbb3baf2-f4fa-4344-805d-6655604f4ac6]
+[2015-05-21 01:16:41,866: INFO/MainProcess] Task celtask.tasks.xsum[dbb3baf2-f4fa-4344-805d-6655604f4ac6] succeeded in 5.0203007129s: 6
+[2015-05-21 01:17:06,867: INFO/MainProcess] Received task: celtask.tasks.xsum[89408e52-fe2f-41a6-bd52-7036f158bff8]
+[2015-05-21 01:17:11,883: INFO/MainProcess] Task celtask.tasks.xsum[89408e52-fe2f-41a6-bd52-7036f158bff8] succeeded in 5.01227955893s: 6
+[2015-05-21 01:17:36,893: INFO/MainProcess] Received task: celtask.tasks.xsum[03ebbb41-761d-4b80-8d27-3f547462af74]
+[2015-05-21 01:17:41,909: INFO/MainProcess] Task celtask.tasks.xsum[03ebbb41-761d-4b80-8d27-3f547462af74] succeeded in 5.01352124801s: 6
+[2015-05-21 01:18:06,923: INFO/MainProcess] Received task: celtask.tasks.xsum[f90f0429-e73a-4437-bcc5-63c7abcb54aa]
+[2015-05-21 01:18:11,937: INFO/MainProcess] Task celtask.tasks.xsum[f90f0429-e73a-4437-bcc5-63c7abcb54aa] succeeded in 5.010823688s: 6
+[2015-05-21 01:18:36,944: INFO/MainProcess] Received task: celtask.tasks.xsum[5b7c9ec5-25c3-458c-857c-e81ee71b9cf2]
+[2015-05-21 01:18:41,959: INFO/MainProcess] Task celtask.tasks.xsum[5b7c9ec5-25c3-458c-857c-e81ee71b9cf2] succeeded in 5.01314970502s: 6
+[2015-05-21 01:19:06,971: INFO/MainProcess] Received task: celtask.tasks.xsum[0d74cc6a-66db-4250-8c4e-a1a5f5ef1e13]
+[2015-05-21 01:19:11,993: INFO/MainProcess] Task celtask.tasks.xsum[0d74cc6a-66db-4250-8c4e-a1a5f5ef1e13] succeeded in 5.01952116704s: 6
+[2015-05-21 01:19:36,990: INFO/MainProcess] Received task: celtask.tasks.xsum[f058483d-b253-4fcc-a5e7-5c44294d27bb]
+[2015-05-21 01:19:42,012: INFO/MainProcess] Task celtask.tasks.xsum[f058483d-b253-4fcc-a5e7-5c44294d27bb] succeeded in 5.01917563193s: 6
+[2015-05-21 01:20:07,029: INFO/MainProcess] Received task: celtask.tasks.xsum[000e6642-71e8-475b-b93c-894710e9b64f]
+[2015-05-21 01:20:12,112: INFO/MainProcess] Task celtask.tasks.xsum[000e6642-71e8-475b-b93c-894710e9b64f] succeeded in 5.08165663597s: 6
+[2015-05-21 01:20:37,109: INFO/MainProcess] Received task: celtask.tasks.xsum[ea2d91e1-d5b0-4a8f-aafb-3cd234ae6407]
+[2015-05-21 01:20:42,130: INFO/MainProcess] Task celtask.tasks.xsum[ea2d91e1-d5b0-4a8f-aafb-3cd234ae6407] succeeded in 5.01095589413s: 6
+[2015-05-21 01:20:54,630: INFO/MainProcess] Received task: celtask.tasks.mul[a17657e3-3e5f-4cec-8ffc-48ec23e70832]
+[2015-05-21 01:21:04,662: INFO/MainProcess] Task celtask.tasks.mul[a17657e3-3e5f-4cec-8ffc-48ec23e70832] succeeded in 10.013835134s: 42066
+[2015-05-21 01:21:07,152: INFO/MainProcess] Received task: celtask.tasks.xsum[589d4706-c658-4f15-984f-42d91f83d725]
+[2015-05-21 01:21:12,175: INFO/MainProcess] Task celtask.tasks.xsum[589d4706-c658-4f15-984f-42d91f83d725] succeeded in 5.02090913896s: 6
+[2015-05-21 01:21:37,194: INFO/MainProcess] Received task: celtask.tasks.xsum[e48c6588-9aa0-4ec0-8d6f-b35717c70996]
+[2015-05-21 01:21:42,212: INFO/MainProcess] Task celtask.tasks.xsum[e48c6588-9aa0-4ec0-8d6f-b35717c70996] succeeded in 5.01501452317s: 6
+[2015-05-21 01:22:07,275: INFO/MainProcess] Received task: celtask.tasks.xsum[b2fb06d7-0e74-498e-8c26-f401cec18941]
+[2015-05-21 01:22:12,284: INFO/MainProcess] Task celtask.tasks.xsum[b2fb06d7-0e74-498e-8c26-f401cec18941] succeeded in 5.00714330096s: 6
+[2015-05-21 01:22:37,285: INFO/MainProcess] Received task: celtask.tasks.xsum[034ab8ea-de9b-46a0-90e2-da2e7b065f43]
+[2015-05-21 01:22:42,297: INFO/MainProcess] Task celtask.tasks.xsum[034ab8ea-de9b-46a0-90e2-da2e7b065f43] succeeded in 5.00896105706s: 6
+[2015-05-21 01:23:07,289: INFO/MainProcess] Received task: celtask.tasks.xsum[0c223f75-2f0b-4903-b7a7-72d6a5ba5602]
+[2015-05-21 01:23:12,298: INFO/MainProcess] Task celtask.tasks.xsum[0c223f75-2f0b-4903-b7a7-72d6a5ba5602] succeeded in 5.00731886993s: 6
+[2015-05-21 01:23:37,314: INFO/MainProcess] Received task: celtask.tasks.xsum[d0680141-3eaf-4c2f-b200-2f902c3b4299]
+[2015-05-21 01:23:42,382: INFO/MainProcess] Task celtask.tasks.xsum[d0680141-3eaf-4c2f-b200-2f902c3b4299] succeeded in 5.06412628083s: 6
+[2015-05-21 01:24:07,340: INFO/MainProcess] Received task: celtask.tasks.xsum[bee62cdb-f346-4a06-80cd-4fdcc694d0e1]
+[2015-05-21 01:24:12,351: INFO/MainProcess] Task celtask.tasks.xsum[bee62cdb-f346-4a06-80cd-4fdcc694d0e1] succeeded in 5.00845164107s: 6
+[2015-05-21 01:24:37,367: INFO/MainProcess] Received task: celtask.tasks.xsum[6fdca387-b309-40b5-8b4a-9c798546fda9]
+[2015-05-21 01:24:42,380: INFO/MainProcess] Task celtask.tasks.xsum[6fdca387-b309-40b5-8b4a-9c798546fda9] succeeded in 5.00552502787s: 6
+[2015-05-21 01:25:07,399: INFO/MainProcess] Received task: celtask.tasks.xsum[0c6418ba-6b73-4408-9853-7d7a63581fa1]
+[2015-05-21 01:25:12,411: INFO/MainProcess] Task celtask.tasks.xsum[0c6418ba-6b73-4408-9853-7d7a63581fa1] succeeded in 5.00841092598s: 6
+[2015-05-21 01:25:37,421: INFO/MainProcess] Received task: celtask.tasks.xsum[e78a8a44-a602-4ed0-8915-e2a24e10f488]
+[2015-05-21 01:25:42,436: INFO/MainProcess] Task celtask.tasks.xsum[e78a8a44-a602-4ed0-8915-e2a24e10f488] succeeded in 5.01214446197s: 6
+[2015-05-21 01:26:07,448: INFO/MainProcess] Received task: celtask.tasks.xsum[c5d5b21e-7770-495e-8f03-e0cc099f643c]
+[2015-05-21 01:26:12,459: INFO/MainProcess] Task celtask.tasks.xsum[c5d5b21e-7770-495e-8f03-e0cc099f643c] succeeded in 5.00797953014s: 6
+[2015-05-21 01:26:37,450: INFO/MainProcess] Received task: celtask.tasks.xsum[9ffd2d6e-2d4a-4e4a-9b1e-afd6e3a7edca]
+[2015-05-21 01:26:42,460: INFO/MainProcess] Task celtask.tasks.xsum[9ffd2d6e-2d4a-4e4a-9b1e-afd6e3a7edca] succeeded in 5.00714963302s: 6
+[2015-05-21 01:27:07,473: INFO/MainProcess] Received task: celtask.tasks.xsum[c62d274c-06c3-4758-8238-59189e4e6379]
+[2015-05-21 01:27:12,479: INFO/MainProcess] Task celtask.tasks.xsum[c62d274c-06c3-4758-8238-59189e4e6379] succeeded in 5.00423089694s: 6
+[2015-05-21 01:27:37,493: INFO/MainProcess] Received task: celtask.tasks.xsum[338eb83f-172c-4605-9c65-3d42c72f0a07]
+[2015-05-21 01:27:42,502: INFO/MainProcess] Task celtask.tasks.xsum[338eb83f-172c-4605-9c65-3d42c72f0a07] succeeded in 5.00745697482s: 6
+[2015-05-21 01:28:07,516: INFO/MainProcess] Received task: celtask.tasks.xsum[02b3d11a-1bd1-45bb-ad46-45cfece4838a]
+[2015-05-21 01:28:12,525: INFO/MainProcess] Task celtask.tasks.xsum[02b3d11a-1bd1-45bb-ad46-45cfece4838a] succeeded in 5.00620945799s: 6
+[2015-05-21 01:28:37,547: INFO/MainProcess] Received task: celtask.tasks.xsum[c38d8c6c-22fd-4137-a205-2dec8f5ce7da]
+[2015-05-21 01:28:42,555: INFO/MainProcess] Task celtask.tasks.xsum[c38d8c6c-22fd-4137-a205-2dec8f5ce7da] succeeded in 5.00543122715s: 6
+[2015-05-21 01:29:07,574: INFO/MainProcess] Received task: celtask.tasks.xsum[0361e0f6-93cf-43a6-8328-378e068563fe]
+[2015-05-21 01:29:12,581: INFO/MainProcess] Task celtask.tasks.xsum[0361e0f6-93cf-43a6-8328-378e068563fe] succeeded in 5.00419921521s: 6
+[2015-05-21 01:29:37,591: INFO/MainProcess] Received task: celtask.tasks.xsum[44550897-f903-4bbc-913e-de5704018e6d]
+[2015-05-21 01:29:42,604: INFO/MainProcess] Task celtask.tasks.xsum[44550897-f903-4bbc-913e-de5704018e6d] succeeded in 5.00992312399s: 6
+[2015-05-21 01:30:07,619: INFO/MainProcess] Received task: celtask.tasks.xsum[1f8b4f86-6702-4460-9f21-9713ff164553]
+[2015-05-21 01:30:12,631: INFO/MainProcess] Task celtask.tasks.xsum[1f8b4f86-6702-4460-9f21-9713ff164553] succeeded in 5.00932289683s: 6
+[2015-05-21 01:30:37,649: INFO/MainProcess] Received task: celtask.tasks.xsum[05112284-3a4b-4c6c-9370-b0b5434bf196]
+[2015-05-21 01:30:42,662: INFO/MainProcess] Task celtask.tasks.xsum[05112284-3a4b-4c6c-9370-b0b5434bf196] succeeded in 5.01032440807s: 6
+[2015-05-21 01:31:07,664: INFO/MainProcess] Received task: celtask.tasks.xsum[e5c5fe89-0dda-4b79-af60-68f188d31ad4]
+[2015-05-21 01:31:12,673: INFO/MainProcess] Task celtask.tasks.xsum[e5c5fe89-0dda-4b79-af60-68f188d31ad4] succeeded in 5.007785731s: 6
+[2015-05-21 01:31:37,692: INFO/MainProcess] Received task: celtask.tasks.xsum[07d4a830-64d6-4604-b4e8-fc128d6dbf6d]
+[2015-05-21 01:31:42,759: INFO/MainProcess] Task celtask.tasks.xsum[07d4a830-64d6-4604-b4e8-fc128d6dbf6d] succeeded in 5.065243555s: 6
+[2015-05-21 01:32:07,775: INFO/MainProcess] Received task: celtask.tasks.xsum[c5e58425-9385-464d-9787-7f47ad1e2262]
+[2015-05-21 01:32:12,786: INFO/MainProcess] Task celtask.tasks.xsum[c5e58425-9385-464d-9787-7f47ad1e2262] succeeded in 5.01034769602s: 6
+[2015-05-21 01:32:37,794: INFO/MainProcess] Received task: celtask.tasks.xsum[c7dbc1b3-a189-4aa7-8ddb-0998ce5e2367]
+[2015-05-21 01:32:42,860: INFO/MainProcess] Task celtask.tasks.xsum[c7dbc1b3-a189-4aa7-8ddb-0998ce5e2367] succeeded in 5.06503158598s: 6
+[2015-05-21 01:33:07,857: INFO/MainProcess] Received task: celtask.tasks.xsum[0bb7e2fb-16e2-4604-a586-75b66cbaa42a]
+[2015-05-21 01:33:12,871: INFO/MainProcess] Task celtask.tasks.xsum[0bb7e2fb-16e2-4604-a586-75b66cbaa42a] succeeded in 5.01259935391s: 6
+[2015-05-21 01:33:37,859: INFO/MainProcess] Received task: celtask.tasks.xsum[499b4397-3f25-43df-9c6c-dfbdae97c381]
+[2015-05-21 01:33:42,873: INFO/MainProcess] Task celtask.tasks.xsum[499b4397-3f25-43df-9c6c-dfbdae97c381] succeeded in 5.00852726703s: 6
+[2015-05-21 01:34:07,887: INFO/MainProcess] Received task: celtask.tasks.xsum[415dfefd-519b-438f-9a5e-c547a923a57f]
+[2015-05-21 01:34:12,901: INFO/MainProcess] Task celtask.tasks.xsum[415dfefd-519b-438f-9a5e-c547a923a57f] succeeded in 5.0108466181s: 6
+[2015-05-21 01:34:37,920: INFO/MainProcess] Received task: celtask.tasks.xsum[95e6c339-c335-49c9-b072-ed9a77069d60]
+[2015-05-21 01:34:42,926: INFO/MainProcess] Task celtask.tasks.xsum[95e6c339-c335-49c9-b072-ed9a77069d60] succeeded in 5.00446759397s: 6
+[2015-05-21 01:35:07,948: INFO/MainProcess] Received task: celtask.tasks.xsum[d1967ca8-cd7f-4831-9054-b07460ee0c31]
+[2015-05-21 01:35:12,961: INFO/MainProcess] Task celtask.tasks.xsum[d1967ca8-cd7f-4831-9054-b07460ee0c31] succeeded in 5.01019810606s: 6
+[2015-05-21 01:35:37,973: INFO/MainProcess] Received task: celtask.tasks.xsum[007d90f5-2dcf-4a4d-9e96-9cadf13cc258]
+[2015-05-21 01:35:42,987: INFO/MainProcess] Task celtask.tasks.xsum[007d90f5-2dcf-4a4d-9e96-9cadf13cc258] succeeded in 5.00738534611s: 6
+[2015-05-21 01:36:08,006: INFO/MainProcess] Received task: celtask.tasks.xsum[9522b03c-124a-4a6d-a5b1-e34d3d3b2578]
+[2015-05-21 01:36:13,028: INFO/MainProcess] Task celtask.tasks.xsum[9522b03c-124a-4a6d-a5b1-e34d3d3b2578] succeeded in 5.01924873888s: 6
+[2015-05-21 01:36:38,023: INFO/MainProcess] Received task: celtask.tasks.xsum[8a6c5ec8-7d27-4c43-9385-9e825f4928ab]
+[2015-05-21 01:36:43,053: INFO/MainProcess] Task celtask.tasks.xsum[8a6c5ec8-7d27-4c43-9385-9e825f4928ab] succeeded in 5.02565200697s: 6
+[2015-05-21 01:37:08,031: INFO/MainProcess] Received task: celtask.tasks.xsum[211141b1-8545-4ed6-b422-85e92c68d8f5]
+[2015-05-21 01:37:13,042: INFO/MainProcess] Task celtask.tasks.xsum[211141b1-8545-4ed6-b422-85e92c68d8f5] succeeded in 5.00886585284s: 6
+[2015-05-21 01:37:38,056: INFO/MainProcess] Received task: celtask.tasks.xsum[22b6afc2-0927-4f3e-a727-b42a85a33bd3]
+[2015-05-21 01:37:43,075: INFO/MainProcess] Task celtask.tasks.xsum[22b6afc2-0927-4f3e-a727-b42a85a33bd3] succeeded in 5.01686850796s: 6
+[2015-05-21 01:38:08,061: INFO/MainProcess] Received task: celtask.tasks.xsum[da5599f5-912e-4d54-b3c5-48b265b7dc51]
+[2015-05-21 01:38:13,093: INFO/MainProcess] Task celtask.tasks.xsum[da5599f5-912e-4d54-b3c5-48b265b7dc51] succeeded in 5.02643739991s: 6
+[2015-05-21 01:38:38,092: INFO/MainProcess] Received task: celtask.tasks.xsum[91414de4-d923-47fb-bb58-809af8e91e59]
+[2015-05-21 01:38:43,101: INFO/MainProcess] Task celtask.tasks.xsum[91414de4-d923-47fb-bb58-809af8e91e59] succeeded in 5.0069826541s: 6
+[2015-05-21 01:39:08,118: INFO/MainProcess] Received task: celtask.tasks.xsum[9161fb81-6fae-4a21-a704-d5a91448cf61]
+[2015-05-21 01:39:13,140: INFO/MainProcess] Task celtask.tasks.xsum[9161fb81-6fae-4a21-a704-d5a91448cf61] succeeded in 5.01537106279s: 6
+[2015-05-21 01:39:38,146: INFO/MainProcess] Received task: celtask.tasks.xsum[e24a9c79-c5b4-490c-85eb-97bffadcf21d]
+[2015-05-21 01:39:43,157: INFO/MainProcess] Task celtask.tasks.xsum[e24a9c79-c5b4-490c-85eb-97bffadcf21d] succeeded in 5.00841769786s: 6
+[2015-05-21 01:40:08,170: INFO/MainProcess] Received task: celtask.tasks.xsum[d3d7e7d9-7ed8-4c61-bcd3-4cc41dab4ea9]
+[2015-05-21 01:40:13,182: INFO/MainProcess] Task celtask.tasks.xsum[d3d7e7d9-7ed8-4c61-bcd3-4cc41dab4ea9] succeeded in 5.00883909315s: 6
+[2015-05-21 01:40:38,196: INFO/MainProcess] Received task: celtask.tasks.xsum[1ca9c313-3f34-401c-a4c5-5cb12df8f525]
+[2015-05-21 01:40:43,212: INFO/MainProcess] Task celtask.tasks.xsum[1ca9c313-3f34-401c-a4c5-5cb12df8f525] succeeded in 5.01296589687s: 6
+[2015-05-21 01:41:08,204: INFO/MainProcess] Received task: celtask.tasks.xsum[30dde8d6-05dc-47ff-9082-59e31237efa1]
+[2015-05-21 01:41:13,214: INFO/MainProcess] Task celtask.tasks.xsum[30dde8d6-05dc-47ff-9082-59e31237efa1] succeeded in 5.00741244596s: 6
+[2015-05-21 01:41:38,216: INFO/MainProcess] Received task: celtask.tasks.xsum[5c73f1ab-2434-466b-8519-5d2c062116bb]
+[2015-05-21 01:41:43,231: INFO/MainProcess] Task celtask.tasks.xsum[5c73f1ab-2434-466b-8519-5d2c062116bb] succeeded in 5.01108780294s: 6
+[2015-05-21 01:42:08,234: INFO/MainProcess] Received task: celtask.tasks.xsum[aa64e575-f286-4aa1-a606-e304ce27df0d]
+[2015-05-21 01:42:13,252: INFO/MainProcess] Task celtask.tasks.xsum[aa64e575-f286-4aa1-a606-e304ce27df0d] succeeded in 5.01242765412s: 6
+[2015-05-21 01:42:38,266: INFO/MainProcess] Received task: celtask.tasks.xsum[8dea6731-cbd1-4dae-93df-9bdff8d21e3d]
+[2015-05-21 01:42:43,277: INFO/MainProcess] Task celtask.tasks.xsum[8dea6731-cbd1-4dae-93df-9bdff8d21e3d] succeeded in 5.00906040682s: 6
+[2015-05-21 01:43:08,296: INFO/MainProcess] Received task: celtask.tasks.xsum[65ce455b-ed41-484b-bbfa-6140da0f8592]
+[2015-05-21 01:43:13,304: INFO/MainProcess] Task celtask.tasks.xsum[65ce455b-ed41-484b-bbfa-6140da0f8592] succeeded in 5.00549593708s: 6
+[2015-05-21 01:43:38,310: INFO/MainProcess] Received task: celtask.tasks.xsum[73eb1d17-94b4-4a6a-a729-00d54cfbcfae]
+[2015-05-21 01:43:43,336: INFO/MainProcess] Task celtask.tasks.xsum[73eb1d17-94b4-4a6a-a729-00d54cfbcfae] succeeded in 5.02221269789s: 6
+[2015-05-21 01:44:08,333: INFO/MainProcess] Received task: celtask.tasks.xsum[e3536813-de23-4f71-8e9e-d5b31de885e9]
+[2015-05-21 01:44:13,364: INFO/MainProcess] Task celtask.tasks.xsum[e3536813-de23-4f71-8e9e-d5b31de885e9] succeeded in 5.02793753217s: 6
+[2015-05-21 01:44:38,358: INFO/MainProcess] Received task: celtask.tasks.xsum[582c3120-d7bf-4bf6-a432-8099f7a6b260]
+[2015-05-21 01:44:43,366: INFO/MainProcess] Task celtask.tasks.xsum[582c3120-d7bf-4bf6-a432-8099f7a6b260] succeeded in 5.00674091885s: 6
+[2015-05-21 01:45:08,382: INFO/MainProcess] Received task: celtask.tasks.xsum[098df0f7-774d-4740-b511-d0dd37eb69bf]
+[2015-05-21 01:45:13,394: INFO/MainProcess] Task celtask.tasks.xsum[098df0f7-774d-4740-b511-d0dd37eb69bf] succeeded in 5.00844260305s: 6
+[2015-05-21 01:45:38,385: INFO/MainProcess] Received task: celtask.tasks.xsum[952a8103-1caa-4c9c-9366-9c89f9efb538]
+[2015-05-21 01:45:43,397: INFO/MainProcess] Task celtask.tasks.xsum[952a8103-1caa-4c9c-9366-9c89f9efb538] succeeded in 5.01020950405s: 6
+[2015-05-21 01:46:08,406: INFO/MainProcess] Received task: celtask.tasks.xsum[13dd5ae0-0f5b-4a02-888a-56e9a753b22e]
+[2015-05-21 01:46:13,525: INFO/MainProcess] Task celtask.tasks.xsum[13dd5ae0-0f5b-4a02-888a-56e9a753b22e] succeeded in 5.11696898704s: 6
+[2015-05-21 01:46:38,513: INFO/MainProcess] Received task: celtask.tasks.xsum[4e991e68-75b3-4573-8bae-b948c990a1a7]
+[2015-05-21 01:46:43,527: INFO/MainProcess] Task celtask.tasks.xsum[4e991e68-75b3-4573-8bae-b948c990a1a7] succeeded in 5.01130485605s: 6
+[2015-05-21 01:47:08,541: INFO/MainProcess] Received task: celtask.tasks.xsum[e4655442-44e9-463d-9ac6-4a276603fffb]
+[2015-05-21 01:47:13,547: INFO/MainProcess] Task celtask.tasks.xsum[e4655442-44e9-463d-9ac6-4a276603fffb] succeeded in 5.00423336378s: 6
+[2015-05-21 01:47:38,556: INFO/MainProcess] Received task: celtask.tasks.xsum[114b5d94-f955-4707-afdf-9abae481ce62]
+[2015-05-21 01:47:43,572: INFO/MainProcess] Task celtask.tasks.xsum[114b5d94-f955-4707-afdf-9abae481ce62] succeeded in 5.01382184098s: 6
+[2015-05-21 01:48:08,590: INFO/MainProcess] Received task: celtask.tasks.xsum[1a34526b-3b3a-4d06-8c53-ba5b576f4960]
+[2015-05-21 01:48:13,598: INFO/MainProcess] Task celtask.tasks.xsum[1a34526b-3b3a-4d06-8c53-ba5b576f4960] succeeded in 5.00487554399s: 6
+[2015-05-21 01:48:38,616: INFO/MainProcess] Received task: celtask.tasks.xsum[9cc4f5d4-e7a8-4c65-ac04-903a57990fa4]
+[2015-05-21 01:48:43,632: INFO/MainProcess] Task celtask.tasks.xsum[9cc4f5d4-e7a8-4c65-ac04-903a57990fa4] succeeded in 5.01429483108s: 6
+[2015-05-21 01:49:08,636: INFO/MainProcess] Received task: celtask.tasks.xsum[7292be79-e77b-4539-8dd9-c42f2fe8578f]
+[2015-05-21 01:49:13,647: INFO/MainProcess] Task celtask.tasks.xsum[7292be79-e77b-4539-8dd9-c42f2fe8578f] succeeded in 5.00935962121s: 6
+[2015-05-21 01:49:38,660: INFO/MainProcess] Received task: celtask.tasks.xsum[9a38e107-7f8f-4f25-83f4-dd276df4b1e5]
+[2015-05-21 01:49:43,674: INFO/MainProcess] Task celtask.tasks.xsum[9a38e107-7f8f-4f25-83f4-dd276df4b1e5] succeeded in 5.0104187429s: 6
+[2015-05-21 01:50:08,687: INFO/MainProcess] Received task: celtask.tasks.xsum[8f5cbcc5-2773-4535-9030-9839af8830f0]
+[2015-05-21 01:50:13,701: INFO/MainProcess] Task celtask.tasks.xsum[8f5cbcc5-2773-4535-9030-9839af8830f0] succeeded in 5.01161719789s: 6
+[2015-05-21 01:50:38,715: INFO/MainProcess] Received task: celtask.tasks.xsum[79a06928-9d56-4244-ab6a-c6beda12c02a]
+[2015-05-21 01:50:43,728: INFO/MainProcess] Task celtask.tasks.xsum[79a06928-9d56-4244-ab6a-c6beda12c02a] succeeded in 5.01100506284s: 6
+[2015-05-21 01:51:08,735: INFO/MainProcess] Received task: celtask.tasks.xsum[2bd28d25-7e99-4966-b9c8-7e09e1fbe262]
+[2015-05-21 01:51:13,745: INFO/MainProcess] Task celtask.tasks.xsum[2bd28d25-7e99-4966-b9c8-7e09e1fbe262] succeeded in 5.00750132394s: 6
+[2015-05-21 01:51:38,761: INFO/MainProcess] Received task: celtask.tasks.xsum[282d5de3-680b-4ff6-a3ea-3759e0b2b7c5]
+[2015-05-21 01:51:43,770: INFO/MainProcess] Task celtask.tasks.xsum[282d5de3-680b-4ff6-a3ea-3759e0b2b7c5] succeeded in 5.00689750304s: 6
+[2015-05-21 01:52:08,952: INFO/MainProcess] Received task: celtask.tasks.xsum[17fc4a63-dec6-4234-a0a2-6f7300fe6c04]
+[2015-05-21 01:52:13,970: INFO/MainProcess] Task celtask.tasks.xsum[17fc4a63-dec6-4234-a0a2-6f7300fe6c04] succeeded in 5.0155305299s: 6
+[2015-05-21 01:52:38,978: INFO/MainProcess] Received task: celtask.tasks.xsum[00a96f51-c901-4c93-b2e7-b0ae23ffe787]
+[2015-05-21 01:52:43,988: INFO/MainProcess] Task celtask.tasks.xsum[00a96f51-c901-4c93-b2e7-b0ae23ffe787] succeeded in 5.00931775104s: 6
+[2015-05-21 01:53:09,012: INFO/MainProcess] Received task: celtask.tasks.xsum[9b985ac2-466f-4b7e-92e4-eda1cbbd8c52]
+[2015-05-21 01:53:14,022: INFO/MainProcess] Task celtask.tasks.xsum[9b985ac2-466f-4b7e-92e4-eda1cbbd8c52] succeeded in 5.00616135704s: 6
+[2015-05-21 01:53:39,027: INFO/MainProcess] Received task: celtask.tasks.xsum[85247625-f16a-4e43-a288-39e45f50dfaf]
+[2015-05-21 01:53:44,044: INFO/MainProcess] Task celtask.tasks.xsum[85247625-f16a-4e43-a288-39e45f50dfaf] succeeded in 5.00966674997s: 6
+[2015-05-21 01:54:09,047: INFO/MainProcess] Received task: celtask.tasks.xsum[cf4b405a-094b-4ebe-a26b-e663e86a1c26]
+[2015-05-21 01:54:14,058: INFO/MainProcess] Task celtask.tasks.xsum[cf4b405a-094b-4ebe-a26b-e663e86a1c26] succeeded in 5.00975184212s: 6
+[2015-05-21 01:54:39,072: INFO/MainProcess] Received task: celtask.tasks.xsum[9132d694-bbbe-4378-be1b-99bd4dedd81a]
+[2015-05-21 01:54:44,085: INFO/MainProcess] Task celtask.tasks.xsum[9132d694-bbbe-4378-be1b-99bd4dedd81a] succeeded in 5.01008153101s: 6
+[2015-05-21 01:54:49,790: INFO/MainProcess] Events of group {task} enabled by remote.
+[2015-05-21 01:54:49,792: INFO/MainProcess] Events of group {task} enabled by remote.
+[2015-05-21 01:54:49,793: INFO/MainProcess] Events of group {task} enabled by remote.
+[2015-05-21 01:55:09,098: INFO/MainProcess] Received task: celtask.tasks.xsum[7105158c-8d89-4379-986f-159292aad76a]
+[2015-05-21 01:55:14,124: INFO/MainProcess] Task celtask.tasks.xsum[7105158c-8d89-4379-986f-159292aad76a] succeeded in 5.00687439996s: 6
+[2015-05-21 01:55:39,124: INFO/MainProcess] Received task: celtask.tasks.xsum[b5487c61-f8cd-4351-a790-2171946049f3]
+[2015-05-21 01:55:44,156: INFO/MainProcess] Task celtask.tasks.xsum[b5487c61-f8cd-4351-a790-2171946049f3] succeeded in 5.01798615395s: 6
+[2015-05-21 01:56:09,149: INFO/MainProcess] Received task: celtask.tasks.xsum[8d8812c7-5d99-43bc-ac73-5ed8a0ec9df0]
+[2015-05-21 01:56:14,165: INFO/MainProcess] Task celtask.tasks.xsum[8d8812c7-5d99-43bc-ac73-5ed8a0ec9df0] succeeded in 5.00918351184s: 6
+[2015-05-21 01:56:39,173: INFO/MainProcess] Received task: celtask.tasks.xsum[8bad5d9f-bbcf-4f14-8ff0-f0a199f0f3e7]
+[2015-05-21 01:56:44,188: INFO/MainProcess] Task celtask.tasks.xsum[8bad5d9f-bbcf-4f14-8ff0-f0a199f0f3e7] succeeded in 5.00625251909s: 6
+[2015-05-21 01:57:09,180: INFO/MainProcess] Received task: celtask.tasks.xsum[e22b8bee-e9a8-490b-96e1-041c6cf4e8f6]
+[2015-05-21 01:57:14,205: INFO/MainProcess] Task celtask.tasks.xsum[e22b8bee-e9a8-490b-96e1-041c6cf4e8f6] succeeded in 5.00893388991s: 6
+[2015-05-21 01:57:39,200: INFO/MainProcess] Received task: celtask.tasks.xsum[d4318da8-67c6-4925-b920-c1be5652f480]
+[2015-05-21 01:57:44,222: INFO/MainProcess] Task celtask.tasks.xsum[d4318da8-67c6-4925-b920-c1be5652f480] succeeded in 5.00910341903s: 6
+[2015-05-21 01:58:09,231: INFO/MainProcess] Received task: celtask.tasks.xsum[4a1f8eed-ed3e-4765-842f-81058b5f9f59]
+[2015-05-21 01:58:14,250: INFO/MainProcess] Task celtask.tasks.xsum[4a1f8eed-ed3e-4765-842f-81058b5f9f59] succeeded in 5.00723156519s: 6
+[2015-05-21 01:58:39,262: INFO/MainProcess] Received task: celtask.tasks.xsum[476663d2-c02e-4dff-ab79-c290f9581602]
+[2015-05-21 01:58:44,284: INFO/MainProcess] Task celtask.tasks.xsum[476663d2-c02e-4dff-ab79-c290f9581602] succeeded in 5.00878328504s: 6
+[2015-05-21 01:59:09,280: INFO/MainProcess] Received task: celtask.tasks.xsum[86a2fdba-def0-40c0-a9c9-ba3bf5dd8a0d]
+[2015-05-21 01:59:14,299: INFO/MainProcess] Task celtask.tasks.xsum[86a2fdba-def0-40c0-a9c9-ba3bf5dd8a0d] succeeded in 5.00641173893s: 6
+[2015-05-21 01:59:39,313: INFO/MainProcess] Received task: celtask.tasks.xsum[c3da1e83-34af-4a22-baee-5eb1e0de4454]
+[2015-05-21 01:59:44,336: INFO/MainProcess] Task celtask.tasks.xsum[c3da1e83-34af-4a22-baee-5eb1e0de4454] succeeded in 5.01086267806s: 6
+[2015-05-21 01:59:55,981: INFO/MainProcess] missed heartbeat from celery2@ubuntu
+[2015-05-21 02:00:09,345: INFO/MainProcess] Received task: celtask.tasks.xsum[14dad027-7d83-4b8d-8386-a5b47588d261]
+[2015-05-21 02:00:14,363: INFO/MainProcess] Task celtask.tasks.xsum[14dad027-7d83-4b8d-8386-a5b47588d261] succeeded in 5.00691570109s: 6
+[2015-05-21 02:00:39,374: INFO/MainProcess] Received task: celtask.tasks.xsum[b0298b67-3c23-4d0a-a2e2-7681527d68ca]
+[2015-05-21 02:00:44,401: INFO/MainProcess] Task celtask.tasks.xsum[b0298b67-3c23-4d0a-a2e2-7681527d68ca] succeeded in 5.00820747507s: 6
+[2015-05-21 02:01:09,407: INFO/MainProcess] Received task: celtask.tasks.xsum[c30aec26-dc74-4c56-a1ae-01ce411dd26d]
+[2015-05-21 02:01:14,445: INFO/MainProcess] Task celtask.tasks.xsum[c30aec26-dc74-4c56-a1ae-01ce411dd26d] succeeded in 5.01232900796s: 6
+[2015-05-21 02:01:39,438: INFO/MainProcess] Received task: celtask.tasks.xsum[a4ece1c1-1fd2-40ae-8de4-02d9b6b23c24]
+[2015-05-21 02:01:44,482: INFO/MainProcess] Task celtask.tasks.xsum[a4ece1c1-1fd2-40ae-8de4-02d9b6b23c24] succeeded in 5.00431332993s: 6
+[2015-05-21 02:02:09,490: INFO/MainProcess] Received task: celtask.tasks.xsum[08c3d15d-8152-416b-8839-d32b9f52785e]
+[2015-05-21 02:02:14,522: INFO/MainProcess] Task celtask.tasks.xsum[08c3d15d-8152-416b-8839-d32b9f52785e] succeeded in 5.00796605204s: 6
+[2015-05-21 02:02:39,495: INFO/MainProcess] Received task: celtask.tasks.xsum[7c5ed50d-108f-4bd5-a1a7-bf8e543a912d]
+[2015-05-21 02:02:44,526: INFO/MainProcess] Task celtask.tasks.xsum[7c5ed50d-108f-4bd5-a1a7-bf8e543a912d] succeeded in 5.00484510511s: 6
+[2015-05-21 02:03:09,541: INFO/MainProcess] Received task: celtask.tasks.xsum[98dd6eeb-be59-48f4-98af-a3074d270524]
+[2015-05-21 02:03:14,571: INFO/MainProcess] Task celtask.tasks.xsum[98dd6eeb-be59-48f4-98af-a3074d270524] succeeded in 5.0089025239s: 6
+[2015-05-21 02:03:39,562: INFO/MainProcess] Received task: celtask.tasks.xsum[162b290a-b180-486c-8c03-c2e69ed2efa2]
+[2015-05-21 02:03:44,597: INFO/MainProcess] Task celtask.tasks.xsum[162b290a-b180-486c-8c03-c2e69ed2efa2] succeeded in 5.00885228091s: 6
+[2015-05-21 02:04:09,585: INFO/MainProcess] Received task: celtask.tasks.xsum[c91cdad8-8e2f-4750-90d6-c0225d6c7a98]
+[2015-05-21 02:04:14,614: INFO/MainProcess] Task celtask.tasks.xsum[c91cdad8-8e2f-4750-90d6-c0225d6c7a98] succeeded in 5.007844151s: 6
+[2015-05-21 02:04:39,621: INFO/MainProcess] Received task: celtask.tasks.xsum[2cfea1fa-368a-43d7-8b1a-559861bb338e]
+[2015-05-21 02:04:44,648: INFO/MainProcess] Task celtask.tasks.xsum[2cfea1fa-368a-43d7-8b1a-559861bb338e] succeeded in 5.00590823684s: 6
+[2015-05-21 02:05:09,655: INFO/MainProcess] Received task: celtask.tasks.xsum[45251273-4272-4bd5-a4aa-7c18b15d7fac]
+[2015-05-21 02:05:14,695: INFO/MainProcess] Task celtask.tasks.xsum[45251273-4272-4bd5-a4aa-7c18b15d7fac] succeeded in 5.01738289092s: 6
+[2015-05-21 02:05:39,697: INFO/MainProcess] Received task: celtask.tasks.xsum[aa0466f7-3366-4024-9747-fd2a39bb8d28]
+[2015-05-21 02:05:44,721: INFO/MainProcess] Task celtask.tasks.xsum[aa0466f7-3366-4024-9747-fd2a39bb8d28] succeeded in 5.00969384518s: 6
+[2015-05-21 02:06:09,729: INFO/MainProcess] Received task: celtask.tasks.xsum[755d2cba-9a5f-428a-92eb-1a8327297080]
+[2015-05-21 02:06:14,750: INFO/MainProcess] Task celtask.tasks.xsum[755d2cba-9a5f-428a-92eb-1a8327297080] succeeded in 5.00836280989s: 6
+[2015-05-21 02:06:39,750: INFO/MainProcess] Received task: celtask.tasks.xsum[0a36ea53-e92d-4960-8527-302de3e4903e]
+[2015-05-21 02:06:44,766: INFO/MainProcess] Task celtask.tasks.xsum[0a36ea53-e92d-4960-8527-302de3e4903e] succeeded in 5.00907058199s: 6
+[2015-05-21 02:07:09,774: INFO/MainProcess] Received task: celtask.tasks.xsum[04ae30ba-9ba1-4007-97fc-ae0f2271d615]
+[2015-05-21 02:07:14,796: INFO/MainProcess] Task celtask.tasks.xsum[04ae30ba-9ba1-4007-97fc-ae0f2271d615] succeeded in 5.01334264991s: 6
+[2015-05-21 02:07:39,794: INFO/MainProcess] Received task: celtask.tasks.xsum[58d306ae-7492-436e-ae47-192621cda5bb]
+[2015-05-21 02:07:44,824: INFO/MainProcess] Task celtask.tasks.xsum[58d306ae-7492-436e-ae47-192621cda5bb] succeeded in 5.01294802898s: 6
+[2015-05-21 02:08:09,819: INFO/MainProcess] Received task: celtask.tasks.xsum[cf0cc0af-e23a-4eb4-b5c9-e6553d785b4e]
+[2015-05-21 02:08:14,847: INFO/MainProcess] Task celtask.tasks.xsum[cf0cc0af-e23a-4eb4-b5c9-e6553d785b4e] succeeded in 5.01398443803s: 6
+[2015-05-21 02:08:39,845: INFO/MainProcess] Received task: celtask.tasks.xsum[0375f9de-b775-44f8-9bdc-02562d19be7c]
+[2015-05-21 02:08:44,876: INFO/MainProcess] Task celtask.tasks.xsum[0375f9de-b775-44f8-9bdc-02562d19be7c] succeeded in 5.00973470882s: 6
+[2015-05-21 02:09:09,897: INFO/MainProcess] Received task: celtask.tasks.xsum[a4cc9d15-6d86-480c-92c1-f086608b8a57]
+[2015-05-21 02:09:14,946: INFO/MainProcess] Task celtask.tasks.xsum[a4cc9d15-6d86-480c-92c1-f086608b8a57] succeeded in 5.03495610994s: 6
+[2015-05-21 02:09:39,922: INFO/MainProcess] Received task: celtask.tasks.xsum[8a9bed3a-4f0b-4673-b64e-da5b6d7253e5]
+[2015-05-21 02:09:44,950: INFO/MainProcess] Task celtask.tasks.xsum[8a9bed3a-4f0b-4673-b64e-da5b6d7253e5] succeeded in 5.00540178106s: 6
+[2015-05-21 02:10:09,964: INFO/MainProcess] Received task: celtask.tasks.xsum[b0971217-8b11-41d9-91a0-16f27b8fd6eb]
+[2015-05-21 02:10:14,997: INFO/MainProcess] Task celtask.tasks.xsum[b0971217-8b11-41d9-91a0-16f27b8fd6eb] succeeded in 5.00941201509s: 6
+[2015-05-21 02:10:39,997: INFO/MainProcess] Received task: celtask.tasks.xsum[7224a2f8-1826-4231-be04-619573ad6334]
+[2015-05-21 02:10:45,030: INFO/MainProcess] Task celtask.tasks.xsum[7224a2f8-1826-4231-be04-619573ad6334] succeeded in 5.0088453989s: 6
+[2015-05-21 02:11:10,020: INFO/MainProcess] Received task: celtask.tasks.xsum[f9edbfd2-2d1d-48ed-9c91-5078eaf6185f]
+[2015-05-21 02:11:15,044: INFO/MainProcess] Task celtask.tasks.xsum[f9edbfd2-2d1d-48ed-9c91-5078eaf6185f] succeeded in 5.01191894198s: 6
+[2015-05-21 02:11:32,085: INFO/MainProcess] missed heartbeat from celery1@ubuntu
+[2015-05-21 02:11:40,040: INFO/MainProcess] Received task: celtask.tasks.xsum[ca8026a0-8872-468b-bd2f-3a91db153c80]
+[2015-05-21 02:11:45,070: INFO/MainProcess] Task celtask.tasks.xsum[ca8026a0-8872-468b-bd2f-3a91db153c80] succeeded in 5.00855277386s: 6
+[2015-05-21 02:12:10,088: INFO/MainProcess] Received task: celtask.tasks.xsum[732fbadb-0138-4f6b-9d57-bb45a65376a3]
+[2015-05-21 02:12:15,114: INFO/MainProcess] Task celtask.tasks.xsum[732fbadb-0138-4f6b-9d57-bb45a65376a3] succeeded in 5.00843398483s: 6
+[2015-05-21 02:12:40,107: INFO/MainProcess] Received task: celtask.tasks.xsum[2ab75428-7b96-4341-bff9-85523d5b7da2]
+[2015-05-21 02:12:45,135: INFO/MainProcess] Task celtask.tasks.xsum[2ab75428-7b96-4341-bff9-85523d5b7da2] succeeded in 5.01036964497s: 6
+[2015-05-21 02:13:10,136: INFO/MainProcess] Received task: celtask.tasks.xsum[9b9f85b6-e7a7-4610-a280-fc52e3c6f133]
+[2015-05-21 02:13:15,180: INFO/MainProcess] Task celtask.tasks.xsum[9b9f85b6-e7a7-4610-a280-fc52e3c6f133] succeeded in 5.01793979295s: 6
+[2015-05-21 02:13:40,169: INFO/MainProcess] Received task: celtask.tasks.xsum[3cc5c24f-edaa-45d4-a7cb-aab6a4063415]
+[2015-05-21 02:13:45,267: INFO/MainProcess] Task celtask.tasks.xsum[3cc5c24f-edaa-45d4-a7cb-aab6a4063415] succeeded in 5.01579696289s: 6
+[2015-05-21 02:14:10,206: INFO/MainProcess] Received task: celtask.tasks.xsum[829e67d3-acb3-4329-bedb-2663a2b51d80]
+[2015-05-21 02:14:15,244: INFO/MainProcess] Task celtask.tasks.xsum[829e67d3-acb3-4329-bedb-2663a2b51d80] succeeded in 5.01736604609s: 6
+[2015-05-21 02:14:40,238: INFO/MainProcess] Received task: celtask.tasks.xsum[cc329359-874e-463b-8789-8226003d0acb]
+[2015-05-21 02:14:45,278: INFO/MainProcess] Task celtask.tasks.xsum[cc329359-874e-463b-8789-8226003d0acb] succeeded in 5.00710044196s: 6
+[2015-05-21 02:15:10,296: INFO/MainProcess] Received task: celtask.tasks.xsum[15339fbb-7c4e-4757-99c4-72b098386501]
+[2015-05-21 02:15:15,356: INFO/MainProcess] Task celtask.tasks.xsum[15339fbb-7c4e-4757-99c4-72b098386501] succeeded in 5.02749725012s: 6
+[2015-05-21 02:15:40,348: INFO/MainProcess] Received task: celtask.tasks.xsum[bdc06bd4-4651-4b70-b4d7-6a3a05c524d3]
+[2015-05-21 02:15:45,523: INFO/MainProcess] Task celtask.tasks.xsum[bdc06bd4-4651-4b70-b4d7-6a3a05c524d3] succeeded in 5.15381909092s: 6
+[2015-05-21 02:16:10,445: INFO/MainProcess] Received task: celtask.tasks.xsum[57c2d246-8a97-43f6-9442-18557437f9af]
+[2015-05-21 02:16:15,508: INFO/MainProcess] Task celtask.tasks.xsum[57c2d246-8a97-43f6-9442-18557437f9af] succeeded in 5.05762068694s: 6
+[2015-05-21 02:16:40,485: INFO/MainProcess] Received task: celtask.tasks.xsum[0253f6fc-b2cf-48a8-a47e-eb670aa58ef4]
+[2015-05-21 02:16:45,517: INFO/MainProcess] Task celtask.tasks.xsum[0253f6fc-b2cf-48a8-a47e-eb670aa58ef4] succeeded in 5.02219338412s: 6
+[2015-05-21 02:17:00,755: INFO/MainProcess] Received task: celtask.tasks.add[e8763e50-3080-4522-8a5f-213a3185f35e]
+[2015-05-21 02:17:05,810: INFO/MainProcess] Task celtask.tasks.add[e8763e50-3080-4522-8a5f-213a3185f35e] succeeded in 5.02723235008s: 255
+[2015-05-21 02:17:10,514: INFO/MainProcess] Received task: celtask.tasks.xsum[a3727316-3a35-4144-b3b2-6b91a93d9f5b]
+[2015-05-21 02:17:12,412: INFO/MainProcess] Received task: celtask.tasks.mul[9b8791af-27f1-4324-b3ec-ba7081b3198e]
+[2015-05-21 02:17:15,545: INFO/MainProcess] Task celtask.tasks.xsum[a3727316-3a35-4144-b3b2-6b91a93d9f5b] succeeded in 5.01507070009s: 6
+[2015-05-21 02:17:22,432: INFO/MainProcess] Task celtask.tasks.mul[9b8791af-27f1-4324-b3ec-ba7081b3198e] succeeded in 10.0101654469s: 6696
+[2015-05-21 02:17:40,745: INFO/MainProcess] Received task: celtask.tasks.xsum[98c5a3e5-5b48-4646-aa39-a8d3d50e74d2]
+[2015-05-21 02:17:45,802: INFO/MainProcess] Task celtask.tasks.xsum[98c5a3e5-5b48-4646-aa39-a8d3d50e74d2] succeeded in 5.01529084495s: 6
+[2015-05-21 02:18:10,804: INFO/MainProcess] Received task: celtask.tasks.xsum[be170f39-c762-44bf-bd05-dd409aa73cff]
+[2015-05-21 02:18:15,838: INFO/MainProcess] Task celtask.tasks.xsum[be170f39-c762-44bf-bd05-dd409aa73cff] succeeded in 5.02060289215s: 6
+[2015-05-21 02:18:40,835: INFO/MainProcess] Received task: celtask.tasks.xsum[aa257a4f-5f9f-42df-a84a-28019448b277]
+[2015-05-21 02:18:45,877: INFO/MainProcess] Task celtask.tasks.xsum[aa257a4f-5f9f-42df-a84a-28019448b277] succeeded in 5.01384337503s: 6
+[2015-05-21 02:19:10,866: INFO/MainProcess] Received task: celtask.tasks.xsum[d7231b8d-0983-48eb-9a01-f0ba10a68fa5]
+[2015-05-21 02:19:15,901: INFO/MainProcess] Task celtask.tasks.xsum[d7231b8d-0983-48eb-9a01-f0ba10a68fa5] succeeded in 5.01247831597s: 6
+[2015-05-21 02:19:40,910: INFO/MainProcess] Received task: celtask.tasks.xsum[f8f5f593-3b11-4acf-86bb-8a1a37e31c23]
+[2015-05-21 02:19:45,938: INFO/MainProcess] Task celtask.tasks.xsum[f8f5f593-3b11-4acf-86bb-8a1a37e31c23] succeeded in 5.01259766007s: 6
+[2015-05-21 02:20:10,923: INFO/MainProcess] Received task: celtask.tasks.xsum[df674b3f-729f-4ca4-b721-2a4ee7837263]
+[2015-05-21 02:20:15,948: INFO/MainProcess] Task celtask.tasks.xsum[df674b3f-729f-4ca4-b721-2a4ee7837263] succeeded in 5.00994355488s: 6
+[2015-05-21 02:20:40,964: INFO/MainProcess] Received task: celtask.tasks.xsum[71cdb957-7703-4485-8530-a37039f65e03]
+[2015-05-21 02:20:46,008: INFO/MainProcess] Task celtask.tasks.xsum[71cdb957-7703-4485-8530-a37039f65e03] succeeded in 5.022011942s: 6
+[2015-05-21 02:21:11,009: INFO/MainProcess] Received task: celtask.tasks.xsum[dc81a704-a985-462c-bccc-4bdc7c71c1c9]
+[2015-05-21 02:21:16,030: INFO/MainProcess] Task celtask.tasks.xsum[dc81a704-a985-462c-bccc-4bdc7c71c1c9] succeeded in 5.01022458589s: 6
+[2015-05-21 02:21:41,041: INFO/MainProcess] Received task: celtask.tasks.xsum[d72bb90d-b4c7-4661-8580-43eea2193d44]
+[2015-05-21 02:21:46,461: INFO/MainProcess] Task celtask.tasks.xsum[d72bb90d-b4c7-4661-8580-43eea2193d44] succeeded in 5.40650244593s: 6
+[2015-05-21 02:22:11,075: INFO/MainProcess] Received task: celtask.tasks.xsum[fa3d77cb-57e1-4c21-9aa1-74aeb6d11ccb]
+[2015-05-21 02:22:16,111: INFO/MainProcess] Task celtask.tasks.xsum[fa3d77cb-57e1-4c21-9aa1-74aeb6d11ccb] succeeded in 5.01641642186s: 6
+[2015-05-21 02:22:41,104: INFO/MainProcess] Received task: celtask.tasks.xsum[ac699a5c-5a57-49a1-a4c9-67e4dd021c3a]
+[2015-05-21 02:22:46,139: INFO/MainProcess] Task celtask.tasks.xsum[ac699a5c-5a57-49a1-a4c9-67e4dd021c3a] succeeded in 5.02333672484s: 6
+[2015-05-21 02:23:11,134: INFO/MainProcess] Received task: celtask.tasks.xsum[a96a3dcd-db88-4679-b154-c205618a0caa]
+[2015-05-21 02:23:16,169: INFO/MainProcess] Task celtask.tasks.xsum[a96a3dcd-db88-4679-b154-c205618a0caa] succeeded in 5.01459794305s: 6
+[2015-05-21 02:23:41,168: INFO/MainProcess] Received task: celtask.tasks.xsum[7b1dc370-0104-4ae9-9112-4664fc21b558]
+[2015-05-21 02:23:46,198: INFO/MainProcess] Task celtask.tasks.xsum[7b1dc370-0104-4ae9-9112-4664fc21b558] succeeded in 5.01699866005s: 6
+[2015-05-21 02:24:11,877: INFO/MainProcess] Received task: celtask.tasks.xsum[cfb798cf-004a-436c-8e3b-7fd04640f7e1]
+[2015-05-21 02:24:16,964: INFO/MainProcess] Task celtask.tasks.xsum[cfb798cf-004a-436c-8e3b-7fd04640f7e1] succeeded in 5.02727981796s: 6
+[2015-05-21 02:24:41,910: INFO/MainProcess] Received task: celtask.tasks.xsum[13f81159-a503-4783-9db0-4803c1e77c5f]
+[2015-05-21 02:24:46,941: INFO/MainProcess] Task celtask.tasks.xsum[13f81159-a503-4783-9db0-4803c1e77c5f] succeeded in 5.0257205579s: 6
+[2015-05-21 02:25:11,933: INFO/MainProcess] Received task: celtask.tasks.xsum[2460bff2-54fc-43ff-87a5-8b1cd27964fd]
+[2015-05-21 02:25:16,948: INFO/MainProcess] Task celtask.tasks.xsum[2460bff2-54fc-43ff-87a5-8b1cd27964fd] succeeded in 5.00887371995s: 6
+[2015-05-21 02:25:41,935: INFO/MainProcess] Received task: celtask.tasks.xsum[215f5142-37a7-44b3-9647-1ce49c07d025]
+[2015-05-21 02:25:46,963: INFO/MainProcess] Task celtask.tasks.xsum[215f5142-37a7-44b3-9647-1ce49c07d025] succeeded in 5.01386085805s: 6
+[2015-05-21 02:26:11,964: INFO/MainProcess] Received task: celtask.tasks.xsum[ea0e131e-2773-4326-b3b2-8060228735a8]
+[2015-05-21 02:26:16,984: INFO/MainProcess] Task celtask.tasks.xsum[ea0e131e-2773-4326-b3b2-8060228735a8] succeeded in 5.00857928698s: 6
+[2015-05-21 02:26:41,993: INFO/MainProcess] Received task: celtask.tasks.xsum[280ed014-3518-4b19-96af-06c4e58d4723]
+[2015-05-21 02:26:47,017: INFO/MainProcess] Task celtask.tasks.xsum[280ed014-3518-4b19-96af-06c4e58d4723] succeeded in 5.01008912292s: 6
+[2015-05-21 02:27:12,025: INFO/MainProcess] Received task: celtask.tasks.xsum[dc1f0693-239c-4815-a194-9884723ecdf1]
+[2015-05-21 02:27:17,061: INFO/MainProcess] Task celtask.tasks.xsum[dc1f0693-239c-4815-a194-9884723ecdf1] succeeded in 5.01511543803s: 6
+[2015-05-21 02:27:42,040: INFO/MainProcess] Received task: celtask.tasks.xsum[707fdcf2-0c70-4ab2-a8dd-695037d45c1b]
+[2015-05-21 02:27:47,076: INFO/MainProcess] Task celtask.tasks.xsum[707fdcf2-0c70-4ab2-a8dd-695037d45c1b] succeeded in 5.011775814s: 6
+[2015-05-21 02:28:12,075: INFO/MainProcess] Received task: celtask.tasks.xsum[cbca344f-8598-4902-827e-16454305407e]
+[2015-05-21 02:28:17,098: INFO/MainProcess] Task celtask.tasks.xsum[cbca344f-8598-4902-827e-16454305407e] succeeded in 5.00834072498s: 6
+[2015-05-21 02:28:42,097: INFO/MainProcess] Received task: celtask.tasks.xsum[fd129572-6064-4742-b14c-c6e6acf5dabb]
+[2015-05-21 02:28:47,115: INFO/MainProcess] Task celtask.tasks.xsum[fd129572-6064-4742-b14c-c6e6acf5dabb] succeeded in 5.00893093599s: 6
+[2015-05-21 02:29:12,115: INFO/MainProcess] Received task: celtask.tasks.xsum[10c1e5d8-3672-4e50-8726-71017af36f39]
+[2015-05-21 02:29:17,144: INFO/MainProcess] Task celtask.tasks.xsum[10c1e5d8-3672-4e50-8726-71017af36f39] succeeded in 5.01071707089s: 6
+[2015-05-21 02:29:42,140: INFO/MainProcess] Received task: celtask.tasks.xsum[13da3553-66a4-451d-b75e-b4082d38ef36]
+[2015-05-21 02:29:47,172: INFO/MainProcess] Task celtask.tasks.xsum[13da3553-66a4-451d-b75e-b4082d38ef36] succeeded in 5.00475918292s: 6
+[2015-05-21 02:30:12,173: INFO/MainProcess] Received task: celtask.tasks.xsum[564c6d08-8e12-4f31-b9b0-1ab7af6635e0]
+[2015-05-21 02:30:17,189: INFO/MainProcess] Task celtask.tasks.xsum[564c6d08-8e12-4f31-b9b0-1ab7af6635e0] succeeded in 5.01106698299s: 6
+[2015-05-21 02:30:45,959: INFO/MainProcess] Received task: celtask.tasks.xsum[466af3fd-22d3-4fc5-8c67-42c73c65f749]
+[2015-05-21 02:30:50,976: INFO/MainProcess] Task celtask.tasks.xsum[466af3fd-22d3-4fc5-8c67-42c73c65f749] succeeded in 5.00781867118s: 6
+[2015-05-21 02:31:15,981: INFO/MainProcess] Received task: celtask.tasks.xsum[e6bebfe9-fc9e-4e11-a3db-06373a2ba8ec]
+[2015-05-21 02:31:21,009: INFO/MainProcess] Task celtask.tasks.xsum[e6bebfe9-fc9e-4e11-a3db-06373a2ba8ec] succeeded in 5.01118700113s: 6
+[2015-05-21 02:31:46,018: INFO/MainProcess] Received task: celtask.tasks.xsum[68358185-6af4-4e13-9d3b-c4c25f1c674f]
+[2015-05-21 02:31:51,045: INFO/MainProcess] Task celtask.tasks.xsum[68358185-6af4-4e13-9d3b-c4c25f1c674f] succeeded in 5.01004312001s: 6

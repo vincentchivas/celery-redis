@@ -1,0 +1,96 @@
+[2015-05-20 20:46:57,001: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2015-05-20 20:46:58,215: WARNING/MainProcess] /usr/local/lib/python2.7/dist-packages/celery-3.1.18-py2.7.egg/celery/app/control.py:36: DuplicateNodenameWarning: Received multiple replies from node name: 'name'.
+Please make sure you give each node a unique nodename using the `-n` option.
+  pluralize(len(dupes), 'name'), ', '.join(sorted(dupes)),
+[2015-05-20 20:46:58,236: WARNING/MainProcess] celery@ubuntu ready.
+
+worker: Hitting Ctrl+C again will terminate all running tasks!
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@ubuntu v3.1.18 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         celtask:0x24906d0
+- ** ---------- .> transport:   redis://localhost:6379/9
+- ** ---------- .> results:     redis://localhost:6379/8
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+
+worker: Cold shutdown (MainProcess)
+[2015-05-20 20:47:08,190: WARNING/MainProcess] Exception
+[2015-05-20 20:47:08,191: WARNING/MainProcess] KeyError
+[2015-05-20 20:47:08,191: WARNING/MainProcess] :
+[2015-05-20 20:47:08,191: WARNING/MainProcess] KeyError(140351176238848,)
+[2015-05-20 20:47:08,192: WARNING/MainProcess] in
+[2015-05-20 20:47:08,192: WARNING/MainProcess] <module 'threading' from '/usr/lib/python2.7/threading.pyc'>
+[2015-05-20 20:47:08,192: WARNING/MainProcess] ignored
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
+
+Unrecognized command-line arguments:  
+
+Try --help?
+
